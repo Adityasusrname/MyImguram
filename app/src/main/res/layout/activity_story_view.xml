@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.stories.StoryViewActivity">
+
+    <View
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/white_transparent"
+        />
+    <View
+        android:id="@+id/vProgress"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:scaleX="0"
+        android:background="@color/white"
+        />
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpStories"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
